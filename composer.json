@@ -1,9 +1,10 @@
 {
   "name": "codexten/yii-dev",
   "type": "yii-extension",
-  "description": "YiiSoft vendor configuration for HiDev",
+  "description": "Vendor configuration for HiDev",
   "keywords": [
-    "hidev"
+    "hidev",
+    "yii"
   ],
   "minimum-stability": "dev",
   "require": {
