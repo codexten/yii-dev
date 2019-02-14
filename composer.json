@@ -8,7 +8,9 @@
   "minimum-stability": "dev",
   "require": {
     "hiqdev/composer-config-plugin": "*@dev",
-    "hiqdev/hidev": "dev-master"
+    "hiqdev/hidev": "dev-master",
+    "codexten/yii-core": "~2.0",
+    "yiisoft/yii2-debug": "~2.0"
   },
   "autoload": {
     "psr-4": {
@@ -19,12 +21,11 @@
     "branch-alias": {
       "dev-master": "2.0.x-dev"
     },
-    "sconfig-plugin": {
+    "config-plugin": {
       "params": "src/config/params.php",
       "core": "src/config/core.php",
       "hidev": [
         "$core",
-        "$nginx",
         "src/config/hidev.php"
       ]
     }
