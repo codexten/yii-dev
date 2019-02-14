@@ -10,7 +10,8 @@
     "hiqdev/composer-config-plugin": "*@dev",
     "hiqdev/hidev": "dev-master",
     "codexten/yii-core": "~2.0",
-    "yiisoft/yii2-debug": "~2.0"
+    "yiisoft/yii2-debug": "~2.0",
+    "rkr/wildcards": "1.0.3"
   },
   "autoload": {
     "psr-4": {
