@@ -1,12 +1,9 @@
 {
-  "name": "entero/entero-dev",
-  "type": "yii2-extension",
+  "name": "codexten/codexten-dev",
+  "type": "yii-extension",
   "description": "YiiSoft vendor configuration for HiDev",
   "keywords": [
-    "yiisoft",
-    "hidev",
-    "vendor",
-    "config"
+    "hidev"
   ],
   "minimum-stability": "dev",
   "require": {
@@ -15,14 +12,14 @@
   },
   "autoload": {
     "psr-4": {
-      "entero\\dev\\": "src"
+      "codexten\\yii\\dev\\": "src"
     }
   },
   "extra": {
     "branch-alias": {
       "dev-master": "2.0.x-dev"
     },
-    "config-plugin": {
+    "sconfig-plugin": {
       "params": "src/config/params.php",
       "core": "src/config/core.php",
       "hidev": [
