@@ -1,0 +1,35 @@
+{
+  "name": "entero/entero-dev",
+  "type": "yii2-extension",
+  "description": "YiiSoft vendor configuration for HiDev",
+  "keywords": [
+    "yiisoft",
+    "hidev",
+    "vendor",
+    "config"
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "hiqdev/composer-config-plugin": "*@dev",
+    "hiqdev/hidev": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "entero\\dev\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    },
+    "config-plugin": {
+      "params": "src/config/params.php",
+      "core": "src/config/core.php",
+      "hidev": [
+        "$core",
+        "$nginx",
+        "src/config/hidev.php"
+      ]
+    }
+  }
+}
