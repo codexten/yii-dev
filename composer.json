@@ -12,7 +12,7 @@
     "codexten/yii-core": "~2.0",
     "yiisoft/yii2-debug": "~2.0",
     "hiqdev/hidev": "dev-master",
-    "entero/entero-nginx": "~2.0.0",
+    "codexten/nginx": "~2.0.0",
     "rkr/wildcards": "1.0.3"
   },
   "autoload": {
