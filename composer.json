@@ -29,6 +29,7 @@
       "core": "src/config/core.php",
       "hidev": [
         "$core",
+        "$nginx",
         "src/config/hidev.php"
       ]
     }
