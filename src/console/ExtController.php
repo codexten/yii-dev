@@ -51,7 +51,7 @@ class ExtController extends Controller
 
     public function afterAction($action, $result)
     {
-        exec("chown -R www-data:www-data ./vendor");
+        exec("chown -R www-data:www-data {$this->ext->sourceDir}");
 
         return parent::afterAction($action, $result);
     }
