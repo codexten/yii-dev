@@ -52,7 +52,10 @@ class En extends Component
         }
         $ymlFile = "{$config['dir']}/src/config/gii.yml";
         if (!file_exists($ymlFile)) {
-            return false;
+            $ymlFile = "{$config['dir']}/config/gii.yml";
+            if (!file_exists($ymlFile)) {
+                return false;
+            }
         }
 
         return $ymlFile;
@@ -74,6 +77,16 @@ class En extends Component
             if ($repo == $item['shortName'] || $repo == $item['name']) {
                 return $item;
             }
+        }
+
+        if ($repo == 'root') {
+            return [
+                'shortName' => '',
+                'version' => '',
+                'gitUrl' => '',
+                'namespace' => 'core\\',
+                'dir' => \Yii::getAlias('@root'),
+            ];
         }
 
         return false;
