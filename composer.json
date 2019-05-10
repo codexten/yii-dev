@@ -15,7 +15,6 @@
     "hiqdev/hidev": "dev-master",
     "codexten/nginx": "~2.0.0",
     "rkr/wildcards": "1.0.3",
-    "codeception/codeception": "*",
     "nelmio/alice": "*"
   },
   "autoload": {
