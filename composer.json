@@ -16,7 +16,7 @@
     "codexten/nginx": "~2.0.0",
     "rkr/wildcards": "1.0.3",
     "codeception/codeception": "~2.0",
-    "hiqdev/hidev" : "^3.4.0"
+    "symfony/yaml" : "^3.4.0"
   },
   "autoload": {
     "psr-4": {
