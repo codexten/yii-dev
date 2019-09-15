@@ -30,7 +30,7 @@ class Ext extends Component
 
     public $vendors = ['eii', 'entero', 'codexten'];
     public $vendorDir = '@vendor';
-    public $sourceDir = '/shared/httpd/.ext';
+    public $sourceDir = '/en';
 
     /**
      * {@inheritdoc}
