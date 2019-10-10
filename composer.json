@@ -12,12 +12,18 @@
     "codexten/yii-core": "~2.0",
     "codexten/yii-gii": "~2.0",
     "yiisoft/yii2-debug": "^2.0.0",
-    "hiqdev/hidev": "dev-master#4e971215be23106b7301cccc102599b4e70b2402",
+    "hiqdev/hidev": "0.6.3",
     "codexten/nginx": "~2.0.0",
     "rkr/wildcards": "1.0.3",
     "codeception/codeception": "~2.0",
     "symfony/yaml" : "^3.4.0"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/jomonkj/hidev"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "codexten\\yii\\dev\\": "src"
