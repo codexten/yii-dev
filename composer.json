@@ -18,12 +18,6 @@
     "codeception/codeception": "~2.0",
     "symfony/yaml" : "^3.4.0"
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/jomonkj/hidev"
-    }
-  ],
   "autoload": {
     "psr-4": {
       "codexten\\yii\\dev\\": "src"
