@@ -12,7 +12,7 @@
     "codexten/yii-core": "~2.0",
     "codexten/yii-gii": "~2.0",
     "yiisoft/yii2-debug": "^2.0.0",
-    "hiqdev/hidev": "dev-master",
+    "hiqdev/hidev": "0.6.2",
     "codexten/nginx": "~2.0.0",
     "rkr/wildcards": "1.0.3",
     "codeception/codeception": "~2.0",
